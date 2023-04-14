@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<!--meta tags requis-->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio</title>
+		<link rel="shortcut icon" href="Guardia logo.jpg" />
+		<!-- Link CSS de bootstrap -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+			crossorigin="anonymous"
+		/>
+		<!-- Mon fichier Css CSS -->
+		<link rel="stylesheet" href="big project.css" />
+	</head>
+
+	<body>
+		<header>
+			<!--Création d'une navbar-->
+			<nav class="stylenavbar navbar navbar-expand-lg navbar-dark fixed-top">
+				<div class="container-fluid">
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNavDropdown"
+						aria-controls="navbarNavDropdown"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<!-- les éléments de la navbar navbar-->
+					<div class="collapse navbar-collapse text-uppercase" id="navbarNavDropdown">
+						<ul class="navbar-nav mx-auto">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#acceuil"
+									>Acceuil</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#règles_du_jeu">Mon profil (CV)</a>
+							</li>
+							<li class="nav-item">
+								<a
+									href="#"
+									class="btn btn-transparent btn lg"
+									data-toggle="modal"
+									data-target="#Monmodal"
+									>Me contacter</a
+								>
+							</li>
+						</ul>
+					</div>
+					<div class="nav-item dropdown">
+						<button
+							class="btn dropdown-toggle stylebtn"
+							type="button"
+							id="dropdownMenuButton"
+							data-toggle="dropdown"
+							aria-haspopup="true"
+							aria-expanded="false"
+						>
+							Menu
+						</button>
+						<div class="dropdown-menu stylebtn" aria-labelledby="dropdownMenuButton">
+							<a
+								class="dropdown-item"
+								href=""
+								target="_blank"
+								>Mes projets</a
+							>
+							<a
+								class="dropdown-item"
+								href=""
+								target="_blank"
+								>Jeux</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<div class="container">
+			<div class="header-content" id="acceuil">
+				<a href="">
+					<img src="porfolio.jpg" width="200" class="d-block mx-auto" />
+				</a>
+				<h3 class="text-center text-light"></h3>
+			</div>
+		</div>
+		<!--Première section-->
+		<section class="banner pt-5">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-7 roundbord backstylewhite">
+						<div class="text-center">
+							<h1 class="primary-color">
+								<img class="pika img-fluid" src="mii.png" />Acceuil
+								<br />
+							</h1>
+						</div>
+						<p class="text-justify">
+							Bonjour,
+              Je m'appelle Guillaume BERNARD, agé de 19 ans, je suis actuellement en première année d'étude 
+              à GUARDIA school, école dédiée à la cybersécurité faisant partie de QUEST EDUCATION GROUP.   
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Deuxième section-->
+		<section class="banner2">
+			<div class="container">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="espace_moyen"></div>
+						<div class="col-2 roundbord backstylewhite">
+							<div class="text-center">
+							</div>
+						</div>
+						<div class="espace_moyen"></div>
+					</div>
+					<div class="row">
+						<div class="col-9 mx-auto roundbord">
+							<div class="container">
+								<div class="ratio ratio-16x9">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="espace_moyen"></div>
+				<div class="row justify-content-center">
+					<div class="col-6 carousel_acceuil">
+						<div
+							id="carouselExampleCaptions"
+							class="carousel slide"
+							data-bs-ride="false"
+						>
+							<div class="carousel-indicators">
+								<button
+									type="button"
+									data-bs-target="#carouselExampleCaptions"
+									data-bs-slide-to="0"
+									class="active"
+									aria-current="true"
+									aria-label="Slide 1"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleCaptions"
+									data-bs-slide-to="1"
+									aria-label="Slide 2"
+								></button>
+								<button
+									type="button"
+									data-bs-target="#carouselExampleCaptions"
+									data-bs-slide-to="2"
+									aria-label="Slide 3"
+								></button>
+							</div>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img
+										src="Salamèche.jpg"
+										class="d-block w-100"
+										alt="Salamèche"
+									/>
+									<div class="carousel-caption d-none d-md-block">
+										<h5>Salamèche</h5>
+										<p>Type Feu</p>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<img src="carapuce.jpg" class="d-block w-100" alt="carapuce" />
+									<div class="carousel-caption d-none d-md-block">
+										<h5>Carapuce</h5>
+										<p>Type Eau</p>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<img
+										src="bulbizard.jpg"
+										class="d-block w-100"
+										alt="bulbizard"
+									/>
+									<div class="carousel-caption d-none d-md-block">
+										<h5>bulbizard</h5>
+										<p>Type Plante</p>
+									</div>
+								</div>
+							</div>
+							<button
+								class="carousel-control-prev"
+								type="button"
+								data-bs-target="#carouselExampleCaptions"
+								data-bs-slide="prev"
+							>
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button
+								class="carousel-control-next"
+								type="button"
+								data-bs-target="#carouselExampleCaptions"
+								data-bs-slide="next"
+							>
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+					</div>
+					<div class="col-5 backstylewhite roundbord">
+						<h2>Les différents type de pokemon</h2>
+						Il existe dix-huit types 
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-6 backstylewhite roundbord">
+						<h2></h2>
+						<p>
+							Pour savoir si une technique va être efficace ou non, 
+						</p>
+					</div>
+					<div class="row justify-content-center">
+						<div class="espace_moyen"></div>
+						<div class="col-8 roundbord backstylewhite">
+							<div class="text-center">
+								<img
+									src="les evolutions.png"
+									alt="Les evolutions"
+									class="img-responsive-evoli"
+								/>
+							</div>
+							<p class="text-justify">
+								L'évolution est un des mécanismes 
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<div class="col-5">
+							<a href="#">
+								<img src="evoli_evolu1.png" alt="" class="img-fluid rounded-4" />
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="espace_moyen"></div>
+				</div>
+			</div>
+		</section>
+		<!-- Troisième section-->
+		<section class="banner3 pt-5" id="Mon profil">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-3 my-auto">
+						<!--Easter Egee-->
+					</div>
+					<div class="col-5 roundbord opacity">
+						<div class="text-center">
+							<h2 class="primary-color">
+								Mon profil<img
+									src="CV logo.jpg"
+								/>
+								<br />
+							</h2>
+						</div>
+					</div>
+					<div class="col-3 my-auto">
+					</div>
+					<div class="espace_moyen"></div>
+				</div>
+			</div>
+		</section>
+		<!-- Quatrième section-->
+		<section class="banner4" id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="espace_large"></div>
+					<iframe
+						class="content_banner4"
+						width="640"
+						height="431"
+						frameborder="0"
+						marginheight="0"
+						marginwidth="0"
+						>Chargement…</iframe
+					>
+				</div>
+			</div>
+			<div class="row">
+				<div class="espace_petit"></div>
+			</div>
+		</section>
+
+		<footer class="text-center">
+			<!-- Copyright -->
+			<div class="text-center p-3 copyright">
+				<p>Guillaume BERNARD</p>
+			</div>
+			<!-- Copyright -->
+		</footer>
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<div class="modal fade" id="Monmodal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title">Contactez-moi</h4>
+						<button type="button" class="close" data-dismiss="modal">X</button>
+					</div>
+					<div class="modal-body">
+						<form class="was-validated">
+							<div class="row">
+								<div class="col">
+									<input type="text" class="form-control" placeholder="Nom" />
+								</div>
+								<div class="col">
+									<input type="text" class="form-control" placeholder="Prénom" />
+								</div>
+							</div>
+							<label for="inputEmail4"></label>
+							<input
+								type="email"
+								class="form-control"
+								id="inputEmail4"
+								placeholder="Email"
+							/>
+							<input type="text" class="form-control" placeholder="Message ?" />
+						</form>
+					</div>
+					<div class="modal-footer">
+						<div class="col-auto my-1">
+							<button type="submit" class="btn btn-primary">Submit</button>
+						</div>
+						<button type="button" class="btn btn-dark" data-dismiss="modal">
+							Fermer
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

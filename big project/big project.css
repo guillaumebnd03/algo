@@ -1,0 +1,61 @@
+.navbar{
+  background :  rgba(0, 0, 0, 0.6);
+}
+body{
+  background: #000;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.8)
+      ),
+      url(guardia.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: no-repeat;
+  background-size: cover;
+}
+
+.header-content{
+  padding-top: 400px;
+  padding-bottom: 50px;
+}
+
+.col-6, .col-12, .col-2{
+  background: rgb(227, 227, 227);
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+
+}
+.roundbord{
+  border-radius: 10px;
+}
+.noopacity{
+  opacity: 1;
+}
+
+
+.content .left{
+  padding-top: 20px;
+}
+.content .right{
+  padding: 0;
+}
+.text-justify{
+  text-align: justify;
+
+}
+.navbar:hover 
+{ background-color: rgb(54, 54, 54); color: 54, 54, 54; }
+
+.licence{
+  text-align: center;
+}
+.pika{
+  height: 100px;
+}
+.espace_moyen{
+  margin: 50px;
+}
+
+.dropdown-toggle{
+  color: #fff;
+}
